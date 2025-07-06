@@ -270,6 +270,7 @@ body {
 }
 
 .contact-info p {
+  display: flex;
   margin-bottom: 15px;
   color: #ccc;
 }
