@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manibhadra Enterprise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <img src="img/clrlogo.png" alt="Logo" class="logo" />
+    </div>
+    <!-- Ad Modal (shared for all ads) -->
+    <div id="ad-modal" class="ad-modal">
+        <div class="ad-content">
+            <span class="close-btn" onclick="closeAd()">&times;</span>
+            <img id="ad-image" src="" alt="Advertisement" class="ad-image" />
+        </div>
+    </div>
+
+
+    <nav>
+        <div class="rounded-navbar">
+            <a href="#home"> <i class="fas fa-home"></i></a>
+            <a href="#about"><i class="fa-solid fa-info"></i></a>
+            <a href="#printing"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="#services"><i class="fa-solid fa-layer-group"></i></a>
+            <a href="#contact"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </nav>
+    <div class="main-content" id="home">
+        <section class="hero">
+            <div class="logo"><img src="img/clrlogo.png" alt="logo"></div>
+            <h1>Your Trusted Partner for Office & Printing <br> <span style="color: #282828">Solutions</span></h1>
+            <p>From DR Files to Brochures, Everything Under One Roof</p>
+            <div class="buttons">
+                <a href="#contact"> <button class="btn btn-primary">Contact us</button></a>
+            </div>
+        </section>
+
+    </div>
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img/logo.png" alt="About Manibhadra Enterprise" />
+            </div>
+            <div class="about-text">
+                <h2>About Manibhadra Enterprise</h2>
+                <p>
+                    Manibhadra Enterprise is your one-stop solution for high-quality printing and IT hardware services.
+                    We specialize in DR files, catalogs, brochures, letterheads, folder files, and custom printing
+                    solutions.
+                    Additionally, we offer sales and servicing of printers, PCs, and laptops to meet your business and
+                    personal tech needs.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="printing-section" id="printing">
+        <h2>Printing Services</h2>
+        <div class="printing-grid">
+            <div class="printing-card">
+                <img src="img/drfil.jpeg" alt="">
+                <h3>DR Files</h3>
+                <p>Custom-designed DR files with high-quality covers and durable binding.</p>
+            </div>
+            <div class="printing-card">
+                <img src="img/catalo.jpeg" alt="">
+                <h3>Catalogs</h3>
+                <p>Professionally printed catalogs to showcase your products and services.</p>
+            </div>
+            <div class="printing-card">
+                <img src="img/brouche.jpeg" alt="">
+                <h3>Brochures</h3>
+                <p>Folded brochures designed to captivate and inform your customers.</p>
+            </div>
+            <div class="printing-card">
+                <img src="img/letterhea.jpeg" alt="">
+                <h3>Letterheads</h3>
+                <p>Branded letterheads that add professionalism to your correspondence.</p>
+            </div>
+            <div class="printing-card">
+                <img src="img/folde.jpeg" alt="">
+                <h3>Folder Files</h3>
+                <p>Elegant and functional folder files for organizing your business documents.</p>
+            </div>
+        </div>
+    </section>
+    <section class="services-section" id="services">
+        <h2>Other Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-laptop"></i>
+                <h3>PC & Laptop Sales</h3>
+                <p>Choose from a range of branded desktops and laptops to match your business or personal needs.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Repair & Servicing</h3>
+                <p>Reliable maintenance for your printers, laptops, and desktop PCs to keep everything running smoothly.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i>Sumel Busniees park - 6 E 108 , First Floor , opp Hanumanpura
+                    BRTS Stand , Dudheshwar road , Sahibaug , Ahmedabad -04, Gujarat, India</p>
+                <p><i class="fas fa-phone-alt"></i>
+                    <a href="https://wa.me/9824069174" target="_blank">+91 9824069174</a>
+                </p>
+
+                <p><i class="fas fa-envelope"></i>
+                    <a href="mailto:s.bindesh69@gmail.com">s.bindesh69@gmail.com</a>
+                </p>
+                <p><i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/manibhadraenterprise_6390?igsh=MXQ3Nm95OGRsOG0zaA==" target="_blank">manibhadraenterprise_6390</a></p>
+            </div>
+            <div class="contact-form">
+                <img src="img/contactimg.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© Manibhadra Enterprise. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
